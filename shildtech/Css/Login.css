@@ -65,7 +65,7 @@ body {
   pointer-events: none;
 }
 .form-group input:focus + label,
-.form-group input:required:valid + label {
+.form-group input:not(:placeholder-shown) + label {
   top: -8px;
   left: 10px;
   font-size: 12px;
