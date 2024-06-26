@@ -21,10 +21,19 @@
             <div class="form-group">
                 <input type="password" id="senha" name="senha" placeholder=" " required>
                 <label for="senha">Senha</label>
+            </div>            
+            <div class="form-group">
+                <input type="text" id="cidade" name="cidade"  placeholder=" " required>
+                <label for="cidade">Cidade</label>
             </div>
             <div class="form-group">
-                <button type="submit">Cadastrar</button>
+                <input type="text" id="Endereço" name="Endereço"  placeholder=" " required>
+                <label for="Endereço">Endereço</label>
             </div>
+
+                <div class="form-group">
+                <button type="submit">Cadastrar</button>
+            </div>    
         </form>
     </div>
 </body>

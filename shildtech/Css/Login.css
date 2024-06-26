@@ -65,7 +65,7 @@ body {
   pointer-events: none;
 }
 .form-group input:focus + label,
-.form-group input:not(:placeholder-shown) + label {
+.form-group input:required:valid + label {
   top: -8px;
   left: 10px;
   font-size: 12px;
@@ -88,6 +88,21 @@ body {
 
   transition: background-color 0.2s, color 0.2s;
 }
+
 .form-group button:hover {
   background-color: #555;
+}
+.hs_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 10px;
+  
+  transition: background-color 0.2s, color 0.2s;
 }
