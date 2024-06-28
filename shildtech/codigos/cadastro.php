@@ -9,7 +9,7 @@
 <body>
     <div class="form-container">
         <h2>Cadastro</h2>
-        <form action="/cadastro" method="POST">
+        <form action="cad.php" method="POST">
             <div class="form-group">
                 <input type="text" id="nome" name="nome" placeholder=" " required>
                 <label for="nome">Nome</label>
@@ -23,16 +23,20 @@
                 <label for="senha">Senha</label>
             </div>            
             <div class="form-group">
+                <input type="telefone" id="telefone" name="telefone" placeholder=" " required>
+                <label for="telefone">Telefone</label>
+            </div>
+            <div class="form-group">
                 <input type="text" id="cidade" name="cidade"  placeholder=" " required>
                 <label for="cidade">Cidade</label>
             </div>
             <div class="form-group">
-                <input type="text" id="Endereço" name="Endereço"  placeholder=" " required>
+                <input type="text" id="Endereço" name="endereco"  placeholder=" " required>
                 <label for="Endereço">Endereço</label>
             </div>
 
-                <div class="form-group">
-                <button type="submit">Cadastrar</button>
+            <div class="hs-button">
+            <input type="submit" name="submit" id="submit">
             </div>    
         </form>
     </div>

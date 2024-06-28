@@ -92,7 +92,7 @@ body {
 .form-group button:hover {
   background-color: #555;
 }
-.hs_button {
+.hs-button {
   display: flex;
   justify-content: center;
   align-items: center;
