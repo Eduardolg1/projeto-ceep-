@@ -1,0 +1,195 @@
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../Fontes/Montserrat.ttf')
+}
+
+@font-face {
+  font-family: "So400";
+  src: url('../Fontes/So400.ttf')
+}
+@font-face {
+  font-family: "So700";
+  src: url('../Fontes/So700.ttf')
+}
+@font-face {
+  font-family: "SoBold";
+  src: url('../Fontes/SoBold.ttf')
+}
+
+html, body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'So400', sans-serif;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.h_separator {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.hs_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 10px;
+  
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.hs_button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px;
+  gap: 40px;
+}
+
+
+
+.m_splash img {
+  width: 100%;
+}
+
+.ms_vitrine {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  left: 14%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 24%;
+}
+
+.msv_title {
+  font-family: 'SoBold', sans-serif;
+  font-size: 32px;
+}
+.msv_subtitle {
+  font-size: 18px;
+}
+
+.m_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.mb_title {
+  font-family: 'SoBold', sans-serif;
+  font-size: 32px;
+}
+
+.mb_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.mbc_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 28%
+}
+
+.mbcc_title {
+  font-family: 'SoBold', sans-serif;
+  font-size: 24px;
+}
+
+.mbcc_subtitle {
+  font-size: 18px;
+}
+
+.mbcc_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 10px;
+  margin-top: auto;
+  width: fit-content;
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.mbcc_button:hover {
+  background-color: #555;
+}
+
+.m_box_2 {
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.mb2_title {
+  font-family: 'SoBold', sans-serif;
+  font-size: 32px;
+}
+
+.mb2_subtitle {
+  font-size: 18px;
+}
+
+.mb2_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mb2c_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.mb2c_container img {
+  width: 76px;
+  margin: 20px;
+}
+
+

@@ -1,0 +1,108 @@
+
+@font-face {
+  font-family: "So400";
+  src: url('../Fontes/So400.ttf')
+}
+@font-face {
+  font-family: "So700";
+  src: url('../Fontes/So700.ttf')
+}
+@font-face {
+  font-family: "SoBold";
+  src: url('../Fontes/SoBold.ttf')
+}
+
+body {
+  background-color: #eeeeee;
+  color: #000;
+  font-family: 'So400', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.form-group {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px 4px;;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  padding: 0 5px;
+  color: #aaa;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.form-group input:focus + label,
+.form-group input:required:valid + label {
+  top: -8px;
+  left: 10px;
+  font-size: 12px;
+  color: #007BFF;
+}
+.form-group button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 25px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 10px;
+  margin-top: auto;
+  width: fit-content;
+  align-self: center;
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.form-group button:hover {
+  background-color: #555;
+}
+.hs-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 10px;
+  
+  transition: background-color 0.2s, color 0.2s;
+}
