@@ -12,7 +12,7 @@ $cidade =$_POST['cidade'];
 
 
 $sqlatualiza = "update cliente set nome='$nome', email='$email', telefone='$telefone', datan='$data_nasc', cidade='$cidade' where id='$id'";
-$result = $conn->query($sqlatualiza);
+$result = $con->query($sqlatualiza);
 
 }
 //Para que serve isso?

@@ -13,7 +13,7 @@ $numerocasa =$_POST['numerocasa'];
 $bairro =$_POST['bairro'];
 
 
-$result = mysqli_query($conn,"INSERT INTO pessoa(cod_tipo_pessoa, nome, telefone, email, senha, rua, cidade, numero_casa, bairro) 
+$result = mysqli_query($con,"INSERT INTO pessoa(cod_tipo_pessoa, nome, telefone, email, senha, rua, cidade, numero_casa, bairro) 
 VALUES ('$codtpessoa','$nome','$telefone','$email','$senha','$rua','$cidade','$numerocasa','$bairro')");
 
 echo('cadastrado com sucesso: ');

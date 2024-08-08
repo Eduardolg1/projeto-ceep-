@@ -22,13 +22,13 @@
         <img src="../Imagens/Splash.jpeg">
         <div class="ms_vitrine">
           <div class="msv_title">Suporte Técnico</div>
-          <div class="msv_subtitle">O agendamento de suporte técnico é um serviço que visa o rápido atendimento e comodidade aos clientes que visitam nossos Centros de Serviço para reparo de aparelhos.</div>
+          <div class="msv_subtitle">A ShildTech assegura suporte técnico e um serviço que visa o rápido atendimento e comodidade aos clientes que visitam nossos Centros de Serviço para reparo de aparelhos.</div>
 
         </div>
       </div>
       <div class="m_box_2">
-        <span class="mb2_title">Agendamento</span>
-        <span class="mb2_subtitle">Com o agendamento de atendimentos em nossos Centros de Serviços, você pode escolher a data e horário ideal para nos visitar. É uma forma prática de evitar filas e ser atendido rapidamente em nossas unidades.</span>
+        <span class="mb2_title">Serviços</span>
+        <span class="mb2_subtitle">Com o serviço de atendimentos em nossos Centros de Trabalho, você pode escolher qualquer horário em dias uteis para nos visitar. É uma forma prática de evitar filas e ser atendido rapidamente em nossas unidades.</span>
         <div class="mb2_container">
           <div class="mb2c_container">
             <img src="../Imagens/Icone1.avif">
@@ -36,11 +36,11 @@
           </div>
           <div class="mb2c_container">
             <img src="../Imagens/Icone2.avif">
-            <span>Atendimento mais rápido para os agendados</span>
+            <span>Atendimento mais rápido para os serviços</span>
           </div>
           <div class="mb2c_container">
             <img src="../Imagens/Icone3.avif">
-            <span>Tranquilidade em saber que será atendido no horário marcado</span>
+            <span>Tranquilidade em saber que será atendido</span>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
             <div class="mbcc_title">
               <span>Online</span>
             </div>
-            <span class="mbcc_subtitle">Atendimento com nossos experts. Disponível 24hrs.</span>
+            <span class="mbcc_subtitle">Serviços com nossos experts. Disponível 24hrs.</span>
             <div class="mbcc_button">Clique Aqui</div>
           </div>
           <div class="mbc_container">
