@@ -106,3 +106,21 @@ body {
   
   transition: background-color 0.2s, color 0.2s;
 }
+
+.form-opicao {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.form-opicao label {
+  position: absolute;
+}
+.form-opicao select {
+  width: 100%;
+  padding: 8px 4px;;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  
+}

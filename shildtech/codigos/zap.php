@@ -44,6 +44,10 @@ else{
             <fieldset>
                 <legend><b>Fórmulário de Clientes</b></legend>
                 <br>
+                 <div class="form-group">
+                <input type="checkbox" id="codtpessoa" name="codtpessoa" placeholder=" " required>
+                <label for="codtpessoa">Tipo da conta</label>
+            </div>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" value="<?php echo $nome ?>" required>
                     <label for="nome" class="labelInput">Nome completo</label>

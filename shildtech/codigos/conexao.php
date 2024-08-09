@@ -1,8 +1,8 @@
 <?php
     $host = "localhost";
     $bd = "ShildTech";
-    $usuario = "root";
-    $senha = "";
+    $usuario = "aluno";
+    $senha = "ceep";
 
     $con = mysqli_connect($host, $usuario, $senha, $bd);
    

@@ -10,10 +10,11 @@
     <div class="form-container">
         <h2>Cadastro</h2>
         <form action="cad.php" method="POST">
-            <div class="form-group">
+        <div class="form-group">
                 <input type="text" id="codtpessoa" name="codtpessoa" placeholder=" " required>
-                <label for="codtpessoa">Tipo da conta</label>
+                <label for="codtpessoa">Tipo pessoa</label>
             </div>
+            <br>
             <div class="form-group">
                 <input type="text" id="nome" name="nome" placeholder=" " required>
                 <label for="nome">Nome</label>
